@@ -1,0 +1,20 @@
+*** Exercices Javascript pur ***
+
+------------------------------------------------------------------------------
+Généner un formulaire dynamique à partir d'un tableau Javascript contenant de simples opérations arithmétiques.
+Exemple de tableau:
+
+let calculations = [
+    { operand1: 5, operand2: 2, operator: '+' },
+    { operand1: 20, operand2: 2, operator: '*' },
+    { operand1: 100, operand4: 2, operator: '-' },
+];
+
+
+Injecter dans le DOM autant de div que d'objets dans le tableau.
+Chaque div affichera l'opération dont l'utilisateur devra trouvée la réponse.
+Associer à chacun de ces div un champ permettant de saisir la réponse.
+Afficher un bouton de validaton permettant valider la formulaire.
+Au clic sur le bouton de validation: calculer et afficher le résultat (ex: "2 bonnes réponses sur 5")
+
+------------------------------------------------------------------------------
