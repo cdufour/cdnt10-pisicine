@@ -1,0 +1,23 @@
+*** Exercices Javascript pur ***
+
+------------------------------------------------------------------------------
+Créer un document html affichant un
+- input de type texte permettant de saisir un nom de ville
+
+Lorsqu'au moins 2 caractères sont saisis, une liste de suggestion dynamique
+apparaît sous le champ de saisi, affichant des noms de ville commençant par les lettres saisies
+
+Chaque ville de cette liste sera clicable. Au clic sur le nom :
+- on affiche la population relative à cette  quelque part dans le DOM
+- le champ de saisie "ville" est réinitialisé à vide
+
+La liste des villes sera codées en dur dans le script, sous le format suivant par exemple:
+
+const cities = [
+    { name: 'Paris', population: 2187526 },
+    { name: 'Marseille', population: 863310 },
+    { name: 'Lyon', population: 516092 },
+    { name: 'Toulouse', population: 479553 },
+    { name: 'Nice', population: 340017 }
+];
+------------------------------------------------------------------------------
