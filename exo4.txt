@@ -6,8 +6,8 @@ Exemple de tableau:
 
 let calculations = [
     { operand1: 5, operand2: 2, operator: '+' },
-    { operand1: 20, operand2: 2, operator: '*' },
-    { operand1: 100, operand2: 2, operator: '-' },
+    { operand1: 20, operand2: 4, operator: '*' },
+    { operand1: 100, operand2: 16, operator: '-' },
 ];
 
 
