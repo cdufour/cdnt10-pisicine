@@ -13,11 +13,14 @@ Chaque ville de cette liste sera clicable. Au clic sur le nom :
 
 La liste des villes sera codées en dur dans le script, sous le format suivant par exemple:
 
-const cities = [
+const CITIES = [
     { name: 'Paris', population: 2187526 },
     { name: 'Marseille', population: 863310 },
     { name: 'Lyon', population: 516092 },
     { name: 'Toulouse', population: 479553 },
-    { name: 'Nice', population: 340017 }
+    { name: 'Toulon', population: 171000 },
+    { name: 'Nice', population: 340017 },
+    { name: 'Nîmes', population: 150610 },
+    { name: 'Tournai', population: 147705 },
 ];
 ------------------------------------------------------------------------------

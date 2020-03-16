@@ -24,7 +24,7 @@ function checkConditions(e) {
     if (isNameLengthOk && isPwdLengthOk) {
         console.log('hasANumberValue', hasANumberValue(txtPwd.value));
         console.log('HasAUpperCaseValue', HasAUpperCaseValue(txtPwd.value));
-        disabled =  !(hasANumberValue(txtPwd.value) && HasAUpperCaseValue(txtPwd.value));
+        disabled =  !(hasANumberValue(txtPwd.value) && hasAUpperCaseValue(txtPwd.value));
     }
 
     btnSubmit.disabled = disabled;
@@ -36,13 +36,13 @@ function hasANumberValue(str) {
     return false;
 }
 
-function HasAUpperCaseValue(str) {
+function hasAUpperCaseValue(str) {
     for(let i=0; i<str.length; i++)
         if (isUpperCase(str[i])) return true;
     return false;
 }
 
-// Variante sytaxique. La fonction est ici assignée à une variable. 
+// Variante syntaxique. La fonction est ici assignée à une variable. 
 // La fonction exécute une expression régulière (regexp) renvoyant
 // true si la totalité de la chaîne est en haut de casse.
 const isUpperCase = (str) => /^[A-Z]*$/.test(str);
