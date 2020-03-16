@@ -1,0 +1,12 @@
+*** Exercices Javascript pur ***
+
+------------------------------------------------------------------------------
+Créer un document html contenant:
+- 1 input de type texte permattent de saisir un caractère
+- 1 menu de sélection, permettant de sélectionner une des options suivantes: 10,50,100,200,500,10000
+- 1 bouton
+- 1 div vide
+
+Au clic sur le bouton, la valeur saisie dans l'input texte sera reprduite dans le div autant de fois que la valeur sélectionnée dans le
+champ de sélection
+------------------------------------------------------------------------------
