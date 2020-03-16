@@ -29,7 +29,7 @@
 
     // Functions
     function searchCity(input) {
-        return CITIES.filter(c => c.name.startsWith(input));
+        return CITIES.filter(c => c.name.toLowerCase().startsWith(input.toLowerCase()));
     }
 
     function showResults(results) {
