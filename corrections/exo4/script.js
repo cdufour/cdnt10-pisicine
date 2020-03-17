@@ -44,8 +44,7 @@
 
     function calculate(index) {
         let c = CALCULATIONS[index];
-        let operator = c.operator;
-        switch (operator) {
+        switch (c.operator) {
             case '+':
                 return c.operand1 + c.operand2;
             case '-':
