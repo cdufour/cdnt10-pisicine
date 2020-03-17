@@ -1,0 +1,12 @@
+[
+    { "firstname":"Paolo", "lastname":"Dybala", "team":"Juventus", "position":"attaquant" },
+    { "firstname":"Cristiano", "lastname":"Ronaldo", "team":"Juventus", "position":"attaquant" },
+    { "firstname":"Sergio", "lastname":"Ramos", "team":"Real Madrid", "position":"défenseur" },
+    { "firstname":"Karim", "lastname":"Benzema", "team":"Real Madrid", "position":"attaquant" },
+    { "firstname":"Lionel", "lastname":"Messi", "team":"Barcelone", "position":"milieu" },
+    { "firstname":"Arturo", "lastname":"Vidal", "team":"Bayern Munich", "position":"milieu" },
+    { "firstname":"Leonardo", "lastname":"Bonucci", "team":"Juventus", "position":"défenseur" },
+    { "firstname":"Marco", "lastname":"Verratti", "team":"PSG", "position":"milieu" },
+    { "firstname":"Gianluigi", "lastname":"Buffon", "team":"Juventus", "position":"gardien" },
+    { "firstname":"Angel", "lastname":"Di Maria", "team":"PSG", "position":"milieu" }
+]

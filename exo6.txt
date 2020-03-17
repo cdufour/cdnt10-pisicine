@@ -1,0 +1,12 @@
+*** Exercices Javascript pur ***
+
+------------------------------------------------------------------------------
+A partir d'une source de données JSON récupérer par une requête ajax, 
+afficher dans le DOM un tableau de joueurs de football (nom, prénom, équipe, position sur le terrain)
+
+Placer un champ de saisie libre au-dessus du tableau afin de pouvoir le filter dynamiquement (à la saisie).
+Le filtrage se fera sur le nom de famille et l'équipe.
+
+Exemples: 
+- "aldo" => n'apparaissent que les joueurs ayant la chaîne "adlo" dans leur nom de famille ou dans le nom de leur équipe
+------------------------------------------------------------------------------
