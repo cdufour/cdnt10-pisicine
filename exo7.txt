@@ -1,0 +1,15 @@
+*** Exercices Javascript pur ***
+
+------------------------------------------------------------------------------
+Créer une page web affichant:
+- un formulaire permettant de poster un joueur à cette adresse: : http://api.opusidea.net/player
+- la liste des joueurs provenant du même endpoint
+
+La liste devra être mise à jour:
+- en cas d'ajout réussi via le formulaire
+- toutes les 60 secondes
+
+L'objet à envoyer au serveur devra avoir cette forme:
+{"player": {"firstname":"Paolo", "lastname":"Dybala","team":"Juventus","position":"attaquant"}}
+
+------------------------------------------------------------------------------

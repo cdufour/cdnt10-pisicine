@@ -5,7 +5,7 @@
 // Constants & globals
 let players = null;
 
-// Dom targetting
+// DOM targetting
 let tabPlayers     = document.querySelector('#tabPlayers tbody');
 let txtSearch      = document.getElementById('txtSearch');
 

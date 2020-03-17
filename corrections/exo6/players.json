@@ -8,5 +8,6 @@
     { "firstname":"Leonardo", "lastname":"Bonucci", "team":"Juventus", "position":"défenseur" },
     { "firstname":"Marco", "lastname":"Verratti", "team":"PSG", "position":"milieu" },
     { "firstname":"Gianluigi", "lastname":"Buffon", "team":"Juventus", "position":"gardien" },
-    { "firstname":"Angel", "lastname":"Di Maria", "team":"PSG", "position":"milieu" }
+    { "firstname":"Angel", "lastname":"Di Maria", "team":"PSG", "position":"milieu" },
+    { "firstname":"Blaise", "lastname":"Matuidi", "team":"Juventus", "position":"milieu" }
 ]
