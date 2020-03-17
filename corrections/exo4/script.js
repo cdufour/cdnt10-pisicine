@@ -6,7 +6,8 @@
     let CALCULATIONS = [
         { operand1: 5, operand2: 2, operator: '+' },
         { operand1: 20, operand2: 4, operator: '*' },
-        { operand1: 100, operand2: 16, operator: '-' }
+        { operand1: 100, operand2: 16, operator: '-' },
+        { operand1: 56, operand2: 2, operator: '*' },
     ];
 
     // DOM targetting
@@ -25,6 +26,7 @@
             secCalculations.appendChild(d);
         })
 
+        // bouton de validation
         let b = document.createElement('button');
         b.innerText = 'Valider';
         b.addEventListener('click', getResults);

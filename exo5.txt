@@ -1,0 +1,9 @@
+*** Exercices Javascript pur ***
+
+------------------------------------------------------------------------------
+A partir d'une constante "QUOTES" de type tableau, afficher dans le DOM,
+à intervalle régulier une citation extraite de manière aléatoire et en relation avec
+une thématique choisie par l'utilisateur depuis un menu déroulant.
+
+Chaque citation aura un "body" (son texte) et un "topic" (thématique)
+------------------------------------------------------------------------------
