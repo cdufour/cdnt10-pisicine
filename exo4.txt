@@ -10,11 +10,9 @@ let calculations = [
     { operand1: 100, operand2: 16, operator: '-' },
 ];
 
-
 Injecter dans le DOM autant de div que d'objets dans le tableau.
-Chaque div affichera l'opération dont l'utilisateur devra trouvée la réponse.
+Chaque div affichera l'opération dont l'utilisateur devra trouver la réponse.
 Associer à chacun de ces div un champ permettant de saisir la réponse.
 Afficher un bouton de validaton permettant valider la formulaire.
 Au clic sur le bouton de validation: calculer et afficher le résultat (ex: "2 bonnes réponses sur 5")
-
 ------------------------------------------------------------------------------
