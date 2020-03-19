@@ -1,0 +1,22 @@
+*** TP Javascript pur ***
+
+------------------------------------------------------------------------------
+Créer une page web affichant une zone de jeu de 800x600 pixels
+
+En bas de la zone, placer un vaisseau spatial.
+Le vaisseau pourra être déplacé uniquement sur l'axe horizontal grâce aux flèches gauche droite.
+
+Des astéroïdes traverseront la zone de jeu du haut vers le bas.
+Leur nombre sera aléatoire, leur vitesse de déplacement sera constante.
+
+A l'initialisation du jeu, le joueur dispose de 3 vies. A chaque impact entre
+le vaisseau et un astéroïde, le joueur perd une vie.
+Le jeu se termine (Message: "Game Over") lorsque le joueur perd sa dernière vie.
+
+
+Option:
+Doter le vaisseau d'une capactié de tir (illimité) de missile. 
+Lorsqu'un missile touche un astéroïde, ce dernier est détruit/disparaît et
+le joueur marque 1 point.
+A la fin du jeu, afficher le score du joueur.
+------------------------------------------------------------------------------
